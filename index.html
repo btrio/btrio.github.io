@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTrio Co., Ltd.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #ff6b2d;
+      --dark: #222;
+      --light: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Kanit', sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--light);
+      color: var(--dark);
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 40px;
+      margin-right: 0.5rem;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: var(--dark);
+      font-weight: 500;
+    }
+
+    .btn {
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.5rem 1.2rem;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ff6b2d;
+    }
+
+    .hero-text p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      color: #666;
+    }
+
+    .hero-image {
+      flex: 1;
+      text-align: center;
+    }
+
+    .hero-image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background-color: #f8f8f8;
+      margin-top: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/final-logo-small_.png" alt="BTrio Logo">
+      <strong>BTrio Co., Ltd.</strong>
+    </div>
+    <nav class="menu">
+      
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Ideas into impact.</h1>
+      <p>We turn small ideas into reliable digital tools that work. Thoughtfully crafted, built to last, and ready to grow.</p>
+      <p>Contact us: <a href="mailto:contract@btrio.co.th">contract@btrio.co.th</a></p>
+    </div>
+    <div class="hero-image">
+      <img src="images/mascot2.png" alt="Mascot">
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 BTrio Co., Ltd. All rights reserved.
+  </footer>
+</body>
+
+</html>
